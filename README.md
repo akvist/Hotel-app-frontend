@@ -20,13 +20,10 @@ Deployment: https://coruscating-ganache-ede5f1.netlify.app
 
 This is a front-end for a full-stack project. The application was made to learn the whole process of developing an app, from writing both back-and front-end code with Node.js and React.js to using services as git, databases, and deployment services.
 
-The application is a simulation of the functionality of three elevators in a hotell with ten floors.
+The application is a simulation of the functionality of three elevators in a hotell with ten floors. It consists of ten buttons, one for each floor, and the three elevators that move between
+these ten floors when the buttons are pushed.
 
 ## Scope of Functionalities
-
-The project is a simulation of a hotell with ten floors and three elevators.
-It consists of ten buttons, one for each floor, and the three elevators that move between
-these ten floors when the buttons are pushed.
 
 The starting point of the elevators is that they are standing still. When pushing a button,
 the closest elevator will leave it's location and move towards the chosen floor with a pace

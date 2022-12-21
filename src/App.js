@@ -37,8 +37,8 @@ export const App = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      //fetch("https://tenfloorshotell.herokuapp.com/api/elevatorstatus")
-      fetch("https://hotellapp.fly.dev/api/elevatorstatus")
+      //fetch("https://tenfloorshotell.herokuapp.com/api/elevator_status")
+      fetch("https://hotellapp.fly.dev/api/elevator_status")
       .then(response => response.json())
       .then(data => {
         setStatus(current =>
@@ -58,8 +58,8 @@ export const App = () => {
   }, []);
 
   async function handleClick(floor) {
-    //await fetch(`https://tenfloorshotell.herokuapp.com/api/callelevatorto/${floor}`)
-    await fetch(`https://hotellapp.fly.dev/api/callelevatorto/${floor}`)
+    //await fetch(`https://tenfloorshotell.herokuapp.com/api/call_elevator_to/${floor}`)
+    await fetch(`https://hotellapp.fly.dev/api/call_elevator_to/${floor}`)
     .then(res => res.json())
     .then(data => {
       if (data === 1) {setGoing1(data)};

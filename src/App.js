@@ -38,7 +38,7 @@ export const App = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       //fetch("https://tenfloorshotell.herokuapp.com/api/elevator_status")
-      fetch("https://hotellapp.fly.dev/api/elevator_status")
+      fetch("https://hotellapp.fly.dev/api/elevators_status")
       .then(response => response.json())
       .then(data => {
         setStatus(current =>

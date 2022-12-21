@@ -58,7 +58,7 @@ Demo video on youtube: https://www.youtube.com/watch?v=VU5xx1ZXCaE
 
 **Together with back-end code**:
 
-- Making a full-stack application
+- Making and deploying a full-stack application
 
 ## Tech Stack
 

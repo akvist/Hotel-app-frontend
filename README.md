@@ -27,10 +27,10 @@ these ten floors when the buttons are pushed.
 
 The starting point of the elevators is that they are standing still. When pushing a button,
 the closest elevator will leave it's location and move towards the chosen floor with a pace
-of 2 seconds per floor and stop when it has arrived. If a botton is pushed while one or more elevators
+of 2 seconds per floor and stop when it has arrived. If a button is pushed while one or more elevators
 are moving, the closest free elevator will be called to the chosen floor. All three elevators
 can move at the same time. If a button is pushed while all three elevators are moving, the
-elevators will still finish with their current paths. The elevattor that arrives first to its
+elevators will still finish with their current paths. The elevator that arrives first to its
 destination will after its arrival start again and move to the chosen floor. If a button is pushed and an elevator
 already is at the chosen floor, nothing will happen.
 
@@ -49,9 +49,8 @@ Demo video on youtube: https://www.youtube.com/watch?v=VU5xx1ZXCaE
 - Managing Hooks such as useState and useEffect
 - Handling events such as onClick with a custom function that takes variables
 - Managing git and GitHub
-- Writing DRY code
-  - By dynamically rendering multiple elevatorbuttons from an array using the map function (in the return-function in App.js)
-  - By dynamically rendering multiple squares that change colors to simulate the movements of the elevators using the map function (in the return-function in App.js)
+- Writing DRY code by dynamically rendering multiple elevatorbuttons from an array using the map function (in the return-function in App.js)
+- Writing DRY code by dynamically rendering multiple squares that change colors to simulate the movements of the elevators using the map function (in the return-function in App.js)
 - Fetching data from back-end code
 - Styling with CSS
 - The logic that checks the elevators' status every second and sets it to the current status
